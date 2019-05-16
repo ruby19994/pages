@@ -1,0 +1,63 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+	font-family: 微軟正黑體 ;
+	background-image:url(images/back.jpg);
+	font-weight:bold;
+	background-size:cover;
+}
+.carousel-item{
+	background-size:cover;
+
+}
+	.nav-item:hover{
+        background-color: #AAAAAA;
+	}
+	.col-4 {
+		padding:50px;
+	}
+	.col-12.bg-dark {
+		background-color:#000000;
+		font-weight:bolder;
+	}
+	.col-8.bg-yellow {
+		background-color:#FFFACD;
+		background-image:url('../images/2.jpg');
+		width:400px;
+　      height:600px;
+        background-repeat:no-repeat;
+         background-size:cover;
+	}
+	.col-4.bg-light{
+		background-color:#FFFFFF;
+	}
+	.carousel-item{
+		align-items:flex-start ;
+	}
+	.carousel.slide{
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+	.carousel-caption{
+		
+		font-family:fantasy;
+		font-weight:bold;
+		font-size:250px;
+	}
+	.d-block{
+		width:100%;
+	}
+	.label{
+		background-image:url(../images/fb.png);
+		width:50px;
+		height:50px;
+
+	}
+	.footer {
+		background-color:#708090;
+      　height: 100px;
+　      position: relative;
+　      margin-top: -100px;
+        padding:30px;
+    }
